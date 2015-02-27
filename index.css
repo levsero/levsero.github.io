@@ -77,7 +77,7 @@ img {
 
 /* STYLE */
 body{
-  background: #dddddd;
+  background: #eeeedd;
   text-align: center;
   font-family: sans-serif;
 }
@@ -102,13 +102,18 @@ main {
   padding: 20px;
   width: 200px;
   float: left;
+  background:
 }
 .projects{
   float: left;
 }
 
 li {
+  background: #dddddd;
   padding-bottom: 20px;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
   /*background: orange;*/
 }
 
@@ -118,12 +123,12 @@ a.project {
   cursor: pointer;
   display: block;
   padding: 15px;
-  background: #bbbbbb;
+  background: #cccccc;
   color: blue;
-  border: 2px solid #888888;
   border-radius: 6px;
 }
 
 a.project:hover {
-  color: red;
+  background: #aaaaaa;
+  color: lightblue;
 }
