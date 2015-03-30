@@ -160,6 +160,14 @@
 		text-align: center;
 	}
 
+	.resume {
+	  background: #4acaa8;
+		padding: 10px 20px;
+		border-radius: 5px;
+		color: #fff;
+		font-weight: bold;
+	}
+
 	header p {
 		color: #aaa;
 		position: relative;
